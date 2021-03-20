@@ -1,4 +1,4 @@
-# Inusrance Token Application
+# Insurance Token Application
 Sample Corda Application on Token SDK  based on insurance use case .
 
 *CorDapp Nodes:*
