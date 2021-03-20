@@ -1,0 +1,10 @@
+com/vehicle/contract/VehicleTokenActivityContract.java
+ com.vehicle.contract.VehicleTokenActivityContract
+ com.vehicle.contract.VehicleTokenActivityContract$Commands
+ com.vehicle.contract.VehicleTokenActivityContract$Commands$Create
+com/vehicle/contract/VehicleTokenContract.java
+ com.vehicle.contract.VehicleTokenContract
+com/vehicle/state/VehicleTokenState.java
+ com.vehicle.state.VehicleTokenState
+com/vehicle/state/VehicleTokenActivityState.java
+ com.vehicle.state.VehicleTokenActivityState
