@@ -119,6 +119,11 @@ task deployNodes(type: net.corda.plugins.Cordform, dependsOn: ['jar']) {
         projectCordapp {
             deploy = false
         }
+	extraConfig = [
+                h2Settings: [
+                        address : 'localhost:0'
+                ]
+        ]
         cordapp("$tokens_release_group:tokens-contracts:$tokens_release_version")
         cordapp("$tokens_release_group:tokens-workflows:$tokens_release_version")
         cordapp("$tokens_release_group:tokens-money:$tokens_release_version")
